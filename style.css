@@ -1,0 +1,22 @@
+.all{
+    text-align: center;
+}
+.Home{
+    background-color: #EA80FC;
+}
+.Avengers{
+    height: 550px;
+    width: 1250px;
+    padding: 30px;
+}
+.my-carousel-1{
+background-color: aquamarine;
+}
+img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.Grid-Gallary{
+    background: linear-gradient(red,purple);
+}
