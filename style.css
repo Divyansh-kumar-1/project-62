@@ -1,7 +1,7 @@
 .all{
     text-align: center;
 }
-.Home{
+#Home{
     background-color: #EA80FC;
 }
 .Avengers{
@@ -9,14 +9,50 @@
     width: 1250px;
     padding: 30px;
 }
-.my-carousel-1{
-background-color: aquamarine;
+#my-carousel-1{
+ background:linear-gradient(#FFEE58,#64FFDA);
 }
 img{
     width: 200px;
     height: 200px;
     padding: 20px;
 }
-.Grid-Gallary{
+#Grid-Gallary{
     background: linear-gradient(red,purple);
+}
+.menu {
+    position: fixed;
+    margin-top: 0px;
+    z-index: 10;
+    top: 0px;
+    width: 100%;
+}
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+    color: black;
+    background-color: aquamarine;
+}
+#Sliding-Gallary{
+    background: linear-gradient(#FF5722,#536DFE);
+}
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+h2{
+    margin-top: 20px;
+}
+#Sliding-h2{
+     background:linear-gradient(#FFEE58,#64FFDA);
 }
